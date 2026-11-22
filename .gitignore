@@ -1,0 +1,11 @@
+# Handwriting data belongs to the people who wrote it: keep it out of git.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+runs/
+*.pt
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
